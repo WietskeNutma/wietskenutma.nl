@@ -1,0 +1,19 @@
+
+html {
+	background-color:#fff;
+}
+
+.paragraph {
+	margin: 15% 15% 0 15%;
+	display: block;
+	position: fixed;
+	float: center;
+	width: 70%;
+	font-family: 'PT Serif', Monospace;
+	text-align:center;
+	font-weight:400;
+	font-style:italic;
+	font-size:125%;
+	line-height:1.6;
+	color:black;
+}
