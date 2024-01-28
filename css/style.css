@@ -14,8 +14,11 @@ body {
 }
 
 .intro {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: 'Source Sans 3', Times, serif;
 	padding-bottom: 100px;
+  font-weight: 600px;
+  line-height: 26px;
+  font-size; 16px;
 }
 
 .post {
@@ -23,15 +26,44 @@ body {
 }
 
 p.date {
-	font-size: 12px;
+  font-size: 15px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
 }
 
 h2.post-title {
-	font-family: 'Courier New', Courier, monospace;
+  margin-block-start: 0px;
+  margin-block-end: 10px;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+p.post-subtitle {
+  margin-block-start: 10px;
+  margin-block-end: 50px;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
 }
 
 p.body-text {
-	font-size: 18px;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+	font-size: 15px;
+  font-family: 'Source Sans 3', serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+p.caption {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+	font-size: 15px;
+  font-family: 'Source Sans 3', serif;
+  color: grey;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 img {
