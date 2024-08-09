@@ -9,8 +9,20 @@ body {
 
 .wrapper {
 	margin: 0 auto;
-	max-width: 43rem;
-	margin-top: 200px;
+	max-width: 40rem;
+	margin-top: 125px;
+}
+
+.wrapper-menu {
+  margin: 0px 16px;
+  margin-top: 25px;
+}
+
+.menu {
+  font-family: 'Source Sans 3', Times, serif;
+  font-weight: 600px;
+  line-height: 26px;
+  font-size: 17px;
 }
 
 .intro {
@@ -18,11 +30,17 @@ body {
 	padding-bottom: 100px;
   font-weight: 600px;
   line-height: 26px;
-  font-size; 16px;
+  font-size: 17px;
 }
 
 .post {
 	padding-bottom: 100px;
+}
+
+p.about-title {
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
 }
 
 p.date {
@@ -45,6 +63,7 @@ p.post-subtitle {
   font-size: 18px;
   font-family: 'Merriweather', serif;
   font-weight: 300;
+  line-height: 28px;
 }
 
 p.body-text {
@@ -66,6 +85,38 @@ p.caption {
   line-height: 24px;
 }
 
+h2.about-title {
+  margin-block-start: 0px;
+  margin-block-end: 30px;
+  font-size: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+.about-body-text {
+	font-family: 'Source Sans 3', Times, serif;
+	padding-bottom: 100px;
+  font-weight: 600px;
+  line-height: 26px;
+  font-size: 16px;
+}
+
 img {
 	max-width: 100%;
+}
+
+.wrapper a:link, a:visited {
+  border-bottom: 1px solid currentColor; /* Or whatever color you want */
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper-menu a:link {
+  text-decoration: none;
+}
+
+.wrapper-menu a:hover {
+  border-bottom: 1px solid currentColor; /* Or whatever color you want */
+  text-decoration: none;
+  color: black;
 }
