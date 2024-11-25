@@ -155,6 +155,10 @@ img {
     flex: 100%;
     max-width: 100%;
   }
+
+  .wrapper {
+    padding: 0px 10px;
+  }
 }
 .outlined {
   border: 1px solid black;
