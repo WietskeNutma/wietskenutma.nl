@@ -197,15 +197,16 @@ p.titles {
     padding-left: 10px;
     padding-right: 10px;
     }
+
   .next-previous {
     padding: 0px 10px;
-  }
-  }
+    }
 
   .wrapper {
     padding: 0px 10px;
   }
 }
+
 .outlined {
   border: 1px solid black;
 }
