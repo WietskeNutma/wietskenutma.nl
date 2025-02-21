@@ -153,6 +153,7 @@ p.titles {
   margin-top: 125px;
   margin-bottom: 50px;
   color: black;
+  padding: 0px 10px;
 }
 
 .next-previous a:link {
