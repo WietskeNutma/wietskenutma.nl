@@ -185,6 +185,8 @@ p.titles {
 @media screen and (max-width: 800px) {
   .gallery-wrapper {
     grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
@@ -192,6 +194,8 @@ p.titles {
 @media screen and (max-width: 600px) {
   .gallery-wrapper {
     grid-template-columns: 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .wrapper {
